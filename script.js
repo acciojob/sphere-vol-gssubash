@@ -4,7 +4,7 @@ function volume_sphere(e) {
 	
 	const rad = Number(MyForm.radius.value);
 	const ans = (Math.PI*4*(rad**3))/3;
-	form.volume.value = ans;
+	form.volume.value = ans.toFixed(4);
   return false;
 } 
 
